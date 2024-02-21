@@ -1,0 +1,55 @@
+.Navbar-header{
+    background-color: #1a2f4c;
+}
+.brand .list-item{
+    color: #ffffff;
+    align-items: center;
+}
+.brand .list-item:hover
+{
+    color: #1790e7;
+    transition: 1.0s;
+}
+.list-item:hover {
+    color: #1790e7;
+    transition: 1.0s;
+}
+.brand .active-list-item{
+    color: #1790e7;
+    transition: 1.0s;
+}
+
+.active-list-item{
+    color: #1790e7;
+    transition: 1.0s;
+}
+
+.button .btn {
+    width: 110px;
+    font-size: 13px;
+    border-radius: 12px;
+    background-color: #ffd11a;
+    border: 1px solid #ffd11a;
+}
+.button .btn:hover {
+    width: 110px;
+    font-size: 13px;
+    font-weight:600;
+    border-radius: 12px;
+    background-color: #ffdc52;
+    border: 1px solid #ffdc52;
+}
+.navbar-toggler{
+    border: 2px solid #ffd11a !important;
+}
+.navbar-toggler{
+    background-color: #ffdc52ed !important;
+}
+.navbar-toggler:hover{
+    background-color: #ffea00 !important;
+    transition: 1.0s;
+}
+.navbar-nav a{
+    margin: 10px;
+    text-decoration: none;
+}
