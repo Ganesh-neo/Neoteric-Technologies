@@ -1,0 +1,30 @@
+.component-13-child,
+  .vector-icon {
+    position: absolute;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+    object-fit: contain;
+  }
+  .component-13-child {
+    height: 194.59%;
+    width: 104.27%;
+    top: -40.29%;
+    right: -30.96%;
+    bottom: -54.3%;
+    left: 26.69%;
+    display: none;
+  }
+  .component-13 {
+    width: 100%;
+    position: relative;
+    height: 800px;
+    overflow: hidden;
+    flex-shrink: 0;
+    background-image: url(/public/component-13@3x.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+    font-size: 96px;
+    color: var(--text-color-secondary-dark);
+  }

@@ -28,38 +28,8 @@
     justify-content: flex-start;
     gap: 0 250px;
   }
-  .headers-v12 {
-    width: 1440px;
-    background-color: var(--bg-color-main-light);
-    height: 100px;
-    overflow: hidden;
-    flex-shrink: 0;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: flex-start;
-    padding: 28px 80px;
-    box-sizing: border-box;
-    text-align: center;
-    font-size: var(--font-size-lg);
-  }
-  .component-13-child,
-  .vector-icon {
-    position: absolute;
-    max-width: 100%;
-    overflow: hidden;
-    max-height: 100%;
-    object-fit: contain;
-  }
-  .component-13-child {
-    height: 194.59%;
-    width: 104.27%;
-    top: -40.29%;
-    right: -30.96%;
-    bottom: -54.3%;
-    left: 26.69%;
-    display: none;
-  }
+ 
+  
   .vector-icon {
     height: 252.46%;
     width: 137.21%;
@@ -117,19 +87,7 @@
     justify-content: flex-start;
     gap: 40px 0;
   }
-  .component-13 {
-    width: 1440px;
-    position: relative;
-    height: 800px;
-    overflow: hidden;
-    flex-shrink: 0;
-    background-image: url(/public/component-13@3x.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: top;
-    font-size: 96px;
-    color: var(--text-color-secondary-dark);
-  }
+ 
   .group-icon {
     position: absolute;
     height: 77.37%;
@@ -813,46 +771,9 @@
     font-size: inherit;
     padding-left: var(--padding-2xl);
   }
-  .copyright-parent,
-  .frame-parent9 {
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    justify-content: flex-start;
-  }
-  .frame-parent9 {
-    width: 1440px;
-    overflow: hidden;
-    padding: var(--padding-81xl);
-    box-sizing: border-box;
-    gap: 0 249px;
-  }
-  .copyright-parent {
-    position: absolute;
-    top: calc(50% - 12px);
-    left: calc(50% - 220.5px);
-    gap: 0 4px;
-  }
-  .frame-wrapper7 {
-    width: 1440px;
-    position: relative;
-    background-color: var(--bg-color-secondary-light);
-    height: 100px;
-    overflow: hidden;
-    flex-shrink: 0;
-  }
-  .frame-parent8,
-  .headers-v12-parent {
-    width: 1440px;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: flex-start;
-  }
-  .frame-parent8 {
-    background-color: var(--bg-color-main-light);
-    font-size: var(--text-md-normal-size);
-  }
+  
+ 
+  
   .headers-v12-parent {
     position: absolute;
     top: 0;
@@ -862,7 +783,7 @@
     width: 100%;
     position: relative;
     background-color: var(--bg-color-main-light);
-    height: 7307px;
+    height: auto;
     overflow: hidden;
     text-align: left;
     font-size: var(--font-size-45xl);

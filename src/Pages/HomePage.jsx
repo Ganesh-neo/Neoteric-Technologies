@@ -1,94 +1,74 @@
-import React from 'react';
-import '../Styles/HomePage.css';
+import React from "react";
+import "../Styles/HomePage.css";
 
 const HomePage = () => {
-    const ourCoreServices = [
-        {
-          cardHeading: 'Innovation',
-          cardDesc : `Innovation is at the core of our identity. We're constantly
+  const ourCoreServices = [
+    {
+      cardHeading: "Innovation",
+      cardDesc: `Innovation is at the core of our identity. We're constantly
           pushing the boundaries of what's possible, exploring new
           ideas, technologies, and approaches to deliver solutions
           that are ahead of the curve. With Neoteric Technologies, you
           can trust that you'll always have access to cutting-edge
           solutions that drive your business forward.`,
-          cardImgSrc : '/group-8.svg'
-        },
-        {
-          cardHeading: 'Innovation',
-          cardDesc : `Innovation is at the core of our identity. We're constantly
+      cardImgSrc: "/group-8.svg",
+    },
+    {
+      cardHeading: "Innovation",
+      cardDesc: `Innovation is at the core of our identity. We're constantly
           pushing the boundaries of what's possible, exploring new
           ideas, technologies, and approaches to deliver solutions
           that are ahead of the curve. With Neoteric Technologies, you
           can trust that you'll always have access to cutting-edge
           solutions that drive your business forward.`,
-          cardImgSrc : '/group-8.svg'
-        },
-        {
-          cardHeading: 'Innovation',
-          cardDesc : `Innovation is at the core of our identity. We're constantly
+      cardImgSrc: "/group-8.svg",
+    },
+    {
+      cardHeading: "Innovation",
+      cardDesc: `Innovation is at the core of our identity. We're constantly
           pushing the boundaries of what's possible, exploring new
           ideas, technologies, and approaches to deliver solutions
           that are ahead of the curve. With Neoteric Technologies, you
           can trust that you'll always have access to cutting-edge
           solutions that drive your business forward.`,
-          cardImgSrc : '/group-8.svg'
-        },
-        {
-          cardHeading: 'Innovation',
-          cardDesc : `Innovation is at the core of our identity. We're constantly
+      cardImgSrc: "/group-8.svg",
+    },
+    {
+      cardHeading: "Innovation",
+      cardDesc: `Innovation is at the core of our identity. We're constantly
           pushing the boundaries of what's possible, exploring new
           ideas, technologies, and approaches to deliver solutions
           that are ahead of the curve. With Neoteric Technologies, you
           can trust that you'll always have access to cutting-edge
           solutions that drive your business forward.`,
-          cardImgSrc : '/group-8.svg'
-        },
-        {
-          cardHeading: 'Innovation',
-          cardDesc : `Innovation is at the core of our identity. We're constantly
+      cardImgSrc: "/group-8.svg",
+    },
+    {
+      cardHeading: "Innovation",
+      cardDesc: `Innovation is at the core of our identity. We're constantly
           pushing the boundaries of what's possible, exploring new
           ideas, technologies, and approaches to deliver solutions
           that are ahead of the curve. With Neoteric Technologies, you
           can trust that you'll always have access to cutting-edge
           solutions that drive your business forward.`,
-          cardImgSrc : '/group-8.svg'
-        },
-        {
-          cardHeading: 'Innovation',
-          cardDesc : `Innovation is at the core of our identity. We're constantly
+      cardImgSrc: "/group-8.svg",
+    },
+    {
+      cardHeading: "Innovation",
+      cardDesc: `Innovation is at the core of our identity. We're constantly
           pushing the boundaries of what's possible, exploring new
           ideas, technologies, and approaches to deliver solutions
           that are ahead of the curve. With Neoteric Technologies, you
           can trust that you'll always have access to cutting-edge
           solutions that drive your business forward.`,
-          cardImgSrc : '/group-8.svg'
-        }
-        
-       ]
+      cardImgSrc: "/group-8.svg",
+    },
+  ];
 
-    return (
-       <div className="home">
+  return (
+    <div className="home">
       <div className="headers-v12-parent">
-        <div className="headers-v12">
-          <div className="neoteric-technology-logo-1-1-parent">
-            <img
-              className="neoteric-technology-logo-1-1"
-              alt=""
-              src="/neoterictechnologylogo-1-1@2x.png"
-            />
-            <div className="sections">
-              <div className="services">Services</div>
-              <div className="services">Industries</div>
-              <div className="link-list">
-                <div className="services">Careers</div>
-              </div>
-              <div className="services">About</div>
-              <div className="services">Contact</div>
-              <div className="services">{`News & Blog`}</div>
-            </div>
-          </div>
-        </div>
-        <div className="component-13">
+        {/* <div className="component-13">
           <img className="component-13-child" alt="" src="/line-1@2x.png" />
           <img className="vector-icon" alt="" src="/vector.svg" />
           <div className="unlocking-potential-unleashin-parent">
@@ -115,8 +95,9 @@ const HomePage = () => {
               </div>
             </div>
           </div>
-        </div>
-        <div className="who-we-are-screen-1-light">
+        </div> */}
+        
+        {/* <div className="who-we-are-screen-1-light">
           <img className="group-icon" alt="" src="/group.svg" />
           <div className="about-neoteric-technologies-parent">
             <b className="about-neoteric-technologies">
@@ -152,8 +133,9 @@ const HomePage = () => {
               </div>
             </div>
           </div>
-        </div>
-        <div className="frame-group">
+        </div> */}
+
+        {/* <div className="frame-group">
           <div className="your-challenges-our-commitmen-wrapper">
             <div className="your-challenges-our">
               Your challenges, our commitment to finding solutions
@@ -161,9 +143,10 @@ const HomePage = () => {
           </div>
           <img className="frame-child" alt="" src="/vector-9.svg" />
           <img className="frame-item" alt="" src="/vector-10.svg" />
-        </div>
+        </div> */}
+        
         <div className="who-we-are-screen-1-light1">
-          <div className="why-choose-us-parent">
+          {/* <div className="why-choose-us-parent">
             <b className="why-choose-us">Why Choose Us?</b>
             <div className="stay-informed-and">
               At Neoteric Technologies, we're more than just a technology
@@ -173,28 +156,24 @@ const HomePage = () => {
               we blend expertise with creativity to shape the technological
               landscape.
             </div>
-          </div>
+          </div> */}
+
           <div className="group-parent">
             <div className="frame-wrapper">
-              {ourCoreServices.map((item,index)=>{
-                return(
-
-              <div key={index} className="frame-container">
-                <div className="innovation-parent">
-                  <b className="customer-centric">{item.cardHeading}</b>
-                  <div className="innovation-is-at">
-                    {item.cardDesc}
+              {ourCoreServices.map((item, index) => {
+                return (
+                  <div key={index} className="frame-container">
+                    <div className="innovation-parent">
+                      <b className="customer-centric">{item.cardHeading}</b>
+                      <div className="innovation-is-at">{item.cardDesc}</div>
+                    </div>
+                    <img className="frame-inner" alt="" src={item.cardImgSrc} />
                   </div>
-                </div>
-                <img className="frame-inner" alt="" src={item.cardImgSrc} />
-              </div>
-                )
-
-              })
-
-              }
+                );
+              })}
             </div>
-            {/* {/* <div className="group-div">
+
+            {/*------------------------- {/* <div className="group-div">
               <div className="frame-container">
                 <div className="innovation-parent">
                   <b className="customer-centric">Customer-Centric</b>
@@ -279,9 +258,10 @@ const HomePage = () => {
             className="who-we-are-screen-1-light-child"
             alt=""
             src="/group-7.svg"
-          /> */}
+          /> ---------------*/}          
         </div>
-        <div className="component-16">
+        
+        {/* <div className="component-16">
           <div className="our-core-services-wrapper">
             <div className="our-core-services">Our Core Services</div>
           </div>
@@ -367,8 +347,9 @@ const HomePage = () => {
               </div>
             </div>
           </div>
-        </div>
-        <div className="frame-wrapper6">
+        </div> */}
+
+        {/* <div className="frame-wrapper6">
           <div className="frame-parent4">
             <div className="lets-talk-parent">
               <div className="lets-talk">Let’s Talk</div>
@@ -404,8 +385,8 @@ const HomePage = () => {
               </div>
             </div>
           </div>
-        </div>
-        <div className="testimonials-v5">
+        </div> */}
+        {/* <div className="testimonials-v5">
           <div className="wrapper">
             <div className="frame-parent6">
               <div className="heading-parent">
@@ -454,8 +435,8 @@ const HomePage = () => {
               </div>
             </div>
           </div>
-        </div>
-        <div className="testimonials-v51">
+        </div> */}
+        {/* <div className="testimonials-v51">
           <div className="news-blog-parent">
             <b className="news-blog1">{`News & Blog`}</b>
             <div className="stay-informed-and">
@@ -519,123 +500,12 @@ const HomePage = () => {
               </div>
             </div>
           </div>
-        </div>
-        <div className="frame-parent8">
-          <div className="frame-parent9">
-            <div className="clip-path-group-parent">
-              <img
-                className="clip-path-group"
-                alt=""
-                src="/clip-path-group.svg"
-              />
-              <div className="marker-pin-01-parent">
-                <img
-                  className="arrow-circle-left-icon"
-                  alt=""
-                  src="/markerpin01.svg"
-                />
-                <div className="mig-551">
-                  MIG - 55 ,15 ,Kukatpally Housing Board road, Green Hills Rd,
-                  near Kaithalapur ground, Hyderabad, Telangana 500072
-                </div>
-              </div>
-            </div>
-            <div className="services-parent">
-              <b className="services1">Follow Us On</b>
-              <div className="facebook-svgrepo-com-1-parent">
-                <img
-                  className="arrow-circle-left-icon"
-                  alt=""
-                  src="/facebooksvgrepocom-1.svg"
-                />
-                <div className="ask-us-anything">Facebook</div>
-              </div>
-              <div className="facebook-svgrepo-com-1-parent">
-                <img
-                  className="arrow-circle-left-icon"
-                  alt=""
-                  src="/twittersvgrepocom-1.svg"
-                />
-                <div className="ask-us-anything">Twitter</div>
-              </div>
-              <div className="facebook-svgrepo-com-1-parent">
-                <img
-                  className="arrow-circle-left-icon"
-                  alt=""
-                  src="/instagram167svgrepocom-1.svg"
-                />
-                <div className="ask-us-anything">Instagram</div>
-              </div>
-              <div className="facebook-svgrepo-com-1-parent">
-                <img
-                  className="arrow-circle-left-icon"
-                  alt=""
-                  src="/linkedinsvgrepocom-3-1.svg"
-                />
-                <div className="ask-us-anything">LinkedIn</div>
-              </div>
-            </div>
-            <div className="services-parent">
-              <b className="services1">Quick Links</b>
-              <div className="link-list">
-                <div className="ask-us-anything">
-                  <ul className="contact-us">
-                    <li>Services</li>
-                  </ul>
-                </div>
-              </div>
-              <div className="link-list">
-                <div className="ask-us-anything">
-                  <ul className="contact-us">
-                    <li>Industries</li>
-                  </ul>
-                </div>
-              </div>
-              <div className="link-list">
-                <div className="ask-us-anything">
-                  <ul className="contact-us">
-                    <li>About</li>
-                  </ul>
-                </div>
-              </div>
-              <div className="ask-us-anything">
-                <ul className="contact-us">
-                  <li>Careers</li>
-                </ul>
-              </div>
-              <div className="link-list">
-                <div className="ask-us-anything">
-                  <ul className="contact-us">
-                    <li>Contact Us</li>
-                  </ul>
-                </div>
-              </div>
-              <div className="link-list">
-                <div className="ask-us-anything">
-                  <ul className="contact-us">
-                    <li>{`News & Blog`}</li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div className="frame-wrapper7">
-            <div className="copyright-parent">
-              <div className="learn-more">Copyright</div>
-              <img
-                className="arrow-circle-left-icon"
-                alt=""
-                src="/copyrightsvgrepocom-1-1.svg"
-              />
-              <div className="learn-more">Neoteric Technologies</div>
-              <div className="learn-more">.</div>
-              <div className="learn-more">All Rights Reserved</div>
-            </div>
-          </div>
-        </div>
+        </div> */}
+
+        
       </div>
     </div>
-    );
-}
+  );
+};
 
 export default HomePage;
